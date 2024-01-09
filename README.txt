@@ -1,4 +1,4 @@
 YARoG
 yet another renderer or game engine
 
-creator: Kevin Peivareh
+creator: Kevin Peivareh/Birkenpapier
