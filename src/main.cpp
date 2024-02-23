@@ -2,6 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <list>
+#include <iostream>
 
 #include "config.hpp"
 #include "display_manager.hpp"
@@ -38,7 +39,6 @@ int main()
             const float clic_min_dist = 1.0f;
 
             if (getLength(world_position - last_clic) > clic_min_dist) {
-                world.addFoodAt(world_position.x, world_position.y, 5.0f);
                 last_clic = world_position;
             }
         }
